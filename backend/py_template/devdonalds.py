@@ -67,6 +67,17 @@ def create_entry():
 # Endpoint that returns a summary of a recipe that corresponds to a query name
 @app.route('/summary', methods=['GET'])
 def summary():
+	# Want to build a summary.
+	# Name of a recipe
+	# Total cooking time
+	# Ingredients(Array of required items, which are the base ingredients)
+
+	# Can think of this as a tree, where at every level we 
+	# have ingredients or recipes
+	# 
+
+
+
 	# TODO: implement me
 	return 'not implemented', 500
 
